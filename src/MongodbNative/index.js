@@ -13,12 +13,14 @@ class MongodbNative {
 
   connect() {
     MongoClient.connect(this.connStr, function(err, client) {
-      assert.equal(null, err);
-
-      this.db = client.db(this.database);
-      this.client = client;
-      this.status = 'connected';
-
+      if (err) {
+        console.log(err);
+        this.status = 'error';
+      } else {
+        this.db = client.db(this.database);
+        this.client = client;
+        this.status = 'connected';
+      }
     }.bind(this));
   }
 

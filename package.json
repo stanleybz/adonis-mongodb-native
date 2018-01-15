@@ -1,17 +1,25 @@
 {
-  "name": "adonisjs-mongodb-native",
+  "name": "adonis-mongodb-native",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Connect Adonisjs application to node-mongodb-native",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "stanleybz",
+  "license": "MIT",
   "devDependencies": {
     "@adonisjs/fold": "^4.0.5"
   },
   "dependencies": {
     "mongodb": "^3.0.1"
+  },
+  "keywords": [
+    "node",
+    "adonisjs",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanleybz/adonis-mongodb-native"
   }
 }
