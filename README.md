@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/adonis-mongodb-native.svg)](https://badge.fury.io/js/adonis-mongodb-native)
+
 # adonis-mongodb-native
 
 Simple tools to connect Adonisjs application to node-mongodb-native
