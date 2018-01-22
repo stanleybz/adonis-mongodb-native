@@ -9,6 +9,9 @@ class MongodbNative {
     this.database = Config._config.database.mongodb.connection.database;
 
     this.status = 'loading';
+
+    this.connect = this.connect.bind(this);
+    this.close = this.close.bind(this);
   }
 
   connect() {

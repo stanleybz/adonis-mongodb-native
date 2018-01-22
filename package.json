@@ -1,6 +1,6 @@
 {
   "name": "adonis-mongodb-native",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Connect Adonisjs application to node-mongodb-native",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/stanleybz/adonis-mongodb-native"
-  }
+  },
+  "main": "index.js"
 }
